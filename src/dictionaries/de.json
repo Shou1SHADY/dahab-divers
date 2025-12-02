@@ -1,0 +1,315 @@
+{
+    "nav": {
+        "home": "Startseite",
+        "diving": "Tauchen in Dahab",
+        "courses": "Kurse",
+        "about": "Über Uns",
+        "contact": "Kontakt",
+        "divingSites": "Tauchplätze",
+        "divePackages": "Tauchpakete",
+        "bookDive": "Tauchgang Buchen",
+        "beginnerCourses": "Anfängerkurse",
+        "advancedCourses": "Fortgeschrittenenkurse",
+        "professionalCourses": "Professionelle Kurse",
+        "specialtyCourses": "Spezialkurse",
+        "ourStory": "Unsere Geschichte",
+        "ourTeam": "Unser Team",
+        "certifications": "Zertifizierungen & Sicherheit"
+    },
+    "home": {
+        "hero": {
+            "title": "Erleben Sie die Magie des Roten Meeres",
+            "subtitle": "Premium-Tauchabenteuer in Dahab, Ägypten",
+            "cta": "Tauchen Entdecken"
+        },
+        "whyUs": {
+            "title": "Warum Dahab Divers?",
+            "subtitle": "Der Dahab Divers Unterschied",
+            "items": [
+                {
+                    "title": "Experten-Instruktoren",
+                    "desc": "Lernen Sie von den Besten mit unserem zertifizierten und erfahrenen Team."
+                },
+                {
+                    "title": "Kleine Gruppen",
+                    "desc": "Persönliche Betreuung durch kleine Gruppengrößen für Sicherheit und Spaß."
+                },
+                {
+                    "title": "Premium-Ausrüstung",
+                    "desc": "Erstklassige Ausrüstung, die nach höchsten Standards gewartet wird."
+                }
+            ]
+        },
+        "specialOffer": {
+            "title": "Sonderangebot",
+            "subtitle": "Zeitlich begrenztes Angebot für unser beliebtestes Tauchpaket",
+            "bestValue": "BESTES PREIS-LEISTUNGS-VERHÄLTNIS",
+            "bookNow": "Jetzt Buchen",
+            "limitedOffer": "Zeitlich begrenztes Angebot • Sparen Sie 20€"
+        },
+        "popularCourses": {
+            "title": "Beliebte Kurse",
+            "subtitle": "Starten Sie Ihr Abenteuer",
+            "cta": "Details Anzeigen"
+        },
+        "diveSites": {
+            "title": "Legendäre Tauchplätze",
+            "subtitle": "Erkunden Sie das Rote Meer",
+            "cta": "Tauchplatz Erkunden"
+        },
+        "testimonials": {
+            "title": "Was Unsere Taucher Sagen",
+            "subtitle": "Kundenbewertungen",
+            "items": [
+                {
+                    "text": "Die Instruktoren bei Dahab Divers sind außergewöhnlich. Sie haben meinen ersten Open Water Tauchgang zu einem unvergesslichen Erlebnis gemacht. Die Aufmerksamkeit für Sicherheit und persönliche Anleitung war hervorragend.",
+                    "name": "Michael Roberts",
+                    "course": "Open Water Zertifizierung"
+                },
+                {
+                    "text": "Ich tauche jetzt seit drei Jahren mit Dahab Divers. Ihre täglichen Tauchausflüge zum Blue Hole und zum Canyon sind immer gut organisiert und die Begegnungen mit dem Meeresleben sind unglaublich.",
+                    "name": "Sarah Johnson",
+                    "course": "Divemaster Studentin"
+                },
+                {
+                    "text": "Das Wochenend-Abenteuerpaket war von unglaublichem Wert. Vier fantastische Tauchgänge, tolle Bootsausflüge und die Unterwasserfotografie war ein wunderbarer Bonus. Ich werde definitiv wiederkommen!",
+                    "name": "Thomas Chen",
+                    "course": "Wochenendpaket"
+                }
+            ]
+        },
+        "prefooter": {
+            "title": "Bereit für ein Abenteuer?",
+            "desc": "Begleiten Sie uns bei einem unvergesslichen Taucherlebnis in den kristallklaren Gewässern des Roten Meeres.",
+            "cta": "Kontaktieren Sie uns"
+        },
+        "featuredSite": {
+            "legendary": "LEGENDÄRER TAUCHPLATZ",
+            "cta": "Tauchplätze Erkunden"
+        },
+        "showcase": {
+            "title": "Erleben Sie das Außergewöhnliche",
+            "subtitle": "Entdecken Sie unsere handverlesene Sammlung von Premium-Taucherlebnissen, die das Beste des Roten Meeres präsentieren",
+            "items": [
+                {
+                    "title": "Unterwasserfotografie",
+                    "description": "Fangen Sie atemberaubendes Meeresleben und lebendige Korallenriffe mit unseren spezialisierten Fotografie-Tauchgängen ein",
+                    "stats": [
+                        "Professioneller Führer inbegriffen",
+                        "Kameravermietung verfügbar",
+                        "Beste Lichtverhältnisse"
+                    ]
+                },
+                {
+                    "title": "Nachttauch-Abenteuer",
+                    "description": "Erleben Sie die magische Verwandlung des Riffs, wenn nachtaktives Meeresleben zum Vorschein kommt",
+                    "stats": [
+                        "Kleine Gruppengrößen",
+                        "Fortgeschrittene Zertifizierung erforderlich",
+                        "Biolumineszente Wunder"
+                    ]
+                },
+                {
+                    "title": "Wrack-Exploration",
+                    "description": "Erforschen Sie faszinierende Schiffswracks und decken Sie die Geschichten unter den Wellen auf",
+                    "stats": [
+                        "Historische Wracks",
+                        "Tieftauch-Zertifizierung erforderlich",
+                        "Meeresbiodiversität"
+                    ]
+                },
+                {
+                    "title": "Meeresbiologie-Touren",
+                    "description": "Lernen Sie von Expert-Meeresbiologen über Rote-Meer-Ökosysteme und Naturschutz",
+                    "stats": [
+                        "Bildungsfokus",
+                        "Schutzaktivitäten",
+                        "Expertenführung"
+                    ]
+                }
+            ]
+        }
+    },
+    "diving": {
+        "header": {
+            "title": "Tauchen in Dahab",
+            "subtitle": "Erkunden Sie die weltberühmten Tauchplätze von Dahab"
+        },
+        "packages": {
+            "title": "Tauchpakete",
+            "subtitle": "Mehr tauchen – weniger zahlen. Wählen Sie aus unseren sorgfältig zusammengestellten Paketen für alle Tauchlevel.",
+            "cta": "Jetzt Buchen"
+        },
+        "sites": {
+            "title": "Beliebte Tauchplätze",
+            "subtitle": "Erkunden Sie die legendären Tauchplätze von Dahab, jeder bietet einzigartige Unterwassererlebnisse.",
+            "cta": "Tauchgang Buchen"
+        },
+        "whyUs": {
+            "title": "Warum mit Dahab Divers Tauchen?",
+            "subtitle": "Erleben Sie das Beste des Tauchens im Roten Meer mit unserem professionellen Team und Premium-Services.",
+            "items": [
+                {
+                    "title": "5-Sterne PADI Center",
+                    "desc": "Zertifiziert als 5-Sterne PADI Tauchcenter mit international anerkannten Instruktoren."
+                },
+                {
+                    "title": "Flexible Zeitplanung",
+                    "desc": "Tägliche Tauchausflüge mit flexibler Planung, die zu Ihren Urlaubsplänen passt."
+                },
+                {
+                    "title": "Erstklassiger Service",
+                    "desc": "Durchgehend mit 4,8+ von unseren Kunden bewertet mit persönlicher Betreuung."
+                }
+            ]
+        }
+    },
+    "courses": {
+        "header": {
+            "title": "Kurse",
+            "subtitle": "Beginnen Sie Ihre Tauchreise oder erweitern Sie Ihre Fähigkeiten"
+        },
+        "info": {
+            "title": "PADI Zertifizierungskurse",
+            "subtitle": "Unsere PADI-Kurse sind darauf ausgelegt, Sie vom absoluten Anfänger zum professionellen Taucher zu bringen. Alle Kurse werden von zertifizierten PADI-Instruktoren mit jahrelanger Erfahrung im Roten Meer durchgeführt.",
+            "badges": {
+                "recognized": "International Anerkannt",
+                "smallGroups": "Kleine Gruppengrößen",
+                "safety": "Sicherheit Zuerst"
+            }
+        },
+        "cta": "Jetzt Anmelden",
+        "progression": {
+            "title": "Kurs-Fortschrittspfad",
+            "subtitle": "Folgen Sie unserem empfohlenen Pfad, um ein selbstbewusster und qualifizierter Taucher zu werden",
+            "descriptions": {
+                "openWater": "Beginnen Sie Ihre Tauchreise mit dem grundlegenden Open Water Kurs.",
+                "advanced": "Erweitern Sie Ihre Fähigkeiten und tauchen Sie tiefer mit dem Advanced Open Water Kurs.",
+                "rescue": "Lernen Sie, Probleme im Wasser zu verhindern und zu bewältigen mit dem Rescue Diver Kurs.",
+                "divemaster": "Beginnen Sie Ihre professionelle Tauchkarriere mit dem Divemaster Kurs."
+            }
+        }
+    },
+    "about": {
+        "header": {
+            "title": "Über Uns",
+            "subtitle": "Unsere Leidenschaft für den Ozean ist tief"
+        },
+        "story": {
+            "title": "Unsere Geschichte",
+            "subtitle": "Seit 2008",
+            "paragraphs": [
+                "Gegründet von einer Gruppe leidenschaftlicher Taucher, startete Dahab Divers mit einer einfachen Mission: die unglaubliche Schönheit des Roten Meeres mit der Welt zu teilen und dabei die höchsten Standards für Sicherheit und Naturschutz aufrechtzuerhalten.",
+                "Im Laufe der Jahre sind wir von einem kleinen Tauchshop zu einem der führenden Tauchzentren in Dahab gewachsen, aber unsere Grundwerte bleiben dieselben. Wir glauben an persönliche Erlebnisse, kleine Gruppen und daran, jeden Taucher wie Familie zu behandeln."
+            ]
+        },
+        "team": {
+            "title": "Lernen Sie das Team Kennen",
+            "subtitle": "Experten-Instruktoren"
+        }
+    },
+    "contact": {
+        "header": {
+            "title": "Kontakt",
+            "subtitle": "Kontaktieren Sie uns, um Ihr Unterwasserabenteuer zu planen"
+        },
+        "info": {
+            "title": "Kontaktieren Sie Uns",
+            "subtitle": "Wir sind hier, um zu helfen",
+            "location": {
+                "title": "Unser Standort",
+                "address": "Masbat Bay, Dahab\nSüdsinai, Ägypten"
+            },
+            "phone": {
+                "title": "Telefon / WhatsApp",
+                "number": "+20 100 123 4567"
+            },
+            "email": {
+                "title": "E-Mail",
+                "address": "info@dahabdivers.com"
+            },
+            "hours": {
+                "title": "Öffnungszeiten",
+                "time": "Täglich: 08:00 - 20:00"
+            }
+        },
+        "booking": {
+            "title": "Buchen Sie Ihren Tauchgang",
+            "subtitle": "Reservierung",
+            "form": {
+                "name": "Vollständiger Name",
+                "email": "E-Mail-Adresse",
+                "date": "Bevorzugtes Datum",
+                "activity": "Tauchgang-Typ",
+                "message": "Nachricht",
+                "messagePlaceholder": "Erzählen Sie uns von Ihrer Taucherfahrung oder besonderen Anforderungen...",
+                "submit": "Buchungsanfrage Senden",
+                "submitting": "Wird gesendet...",
+                "success": "Buchungsanfrage erfolgreich gesendet! Wir kontaktieren Sie innerhalb von 24 Stunden.",
+                "error": "Fehler beim Senden der Buchungsanfrage. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
+                "errors": {
+                    "nameRequired": "Name ist erforderlich",
+                    "emailRequired": "E-Mail ist erforderlich",
+                    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+                    "dateRequired": "Bitte wählen Sie ein Datum"
+                }
+            }
+        }
+    },
+    "stats": {
+        "divers": "Zufriedene Taucher",
+        "experience": "Jahre Erfahrung",
+        "sites": "Tauchplätze",
+        "instructors": "Zertifizierte Instruktoren"
+    },
+    "trust": {
+        "padi": "PADI 5-Sterne Center",
+        "safety": "Sicherheit Zuerst",
+        "eco": "Umweltfreundlich"
+    },
+    "footer": {
+        "tagline": "Premium-Taucherlebnisse im Herzen des Roten Meeres. Entdecken Sie die Unterwasserwelt mit Sicherheit, Komfort und Stil.",
+        "quickLinks": {
+            "blueHole": "Blue Hole",
+            "canyon": "Canyon",
+            "safaris": "Bootssafaris",
+            "courses": "PADI Kurse"
+        },
+        "social": "Folgen Sie Uns",
+        "rights": "Alle Rechte vorbehalten."
+    },
+    "common": {
+        "readMore": "Mehr Lesen",
+        "learnMore": "Mehr Erfahren",
+        "bookNow": "Jetzt Buchen",
+        "contactUs": "Kontaktieren Sie Uns",
+        "viewAll": "Alle Anzeigen",
+        "close": "Schließen",
+        "menu": "Menü"
+    },
+    "filter": {
+        "filters": "Filter",
+        "packages": "Pakete",
+        "sites": "Tauchplätze",
+        "searchPlaceholder": "Pakete oder Tauchplätze nach Name oder Merkmalen suchen...",
+        "experienceLevel": "Erfahrungsstufe",
+        "depthRange": "Tiefenbereich",
+        "minimumRating": "Mindestbewertung",
+        "sortBy": "Sortieren nach",
+        "allDepths": "Alle Tiefen",
+        "shallowDepth": "Flach (0-20m)",
+        "mediumDepth": "Mittel (20-40m)",
+        "deepDepth": "Tief (40m+)",
+        "highestRated": "Bestbewertet",
+        "priceLowHigh": "Preis: Niedrig bis Hoch",
+        "priceHighLow": "Preis: Hoch bis Niedrig",
+        "nameAZ": "Name A-Z",
+        "all": "Alle",
+        "clear": "Löschen",
+        "applyFilters": "Filter Anwenden",
+        "reset": "Zurücksetzen",
+        "showingResults": "Anzeige",
+        "matchingCriteria": "entspricht Ihren Kriterien",
+        "clearAll": "Alle löschen"
+    }
+}

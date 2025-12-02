@@ -1,0 +1,315 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "diving": "Plongée à Dahab",
+    "courses": "Cours",
+    "about": "À propos",
+    "contact": "Contact",
+    "divingSites": "Sites de Plongée",
+    "divePackages": "Forfaits Plongée",
+    "bookDive": "Réserver une Plongée",
+    "beginnerCourses": "Cours Débutants",
+    "advancedCourses": "Cours Avancés",
+    "professionalCourses": "Cours Professionnels",
+    "specialtyCourses": "Cours Spécialisés",
+    "ourStory": "Notre Histoire",
+    "ourTeam": "Notre Équipe",
+    "certifications": "Certifications et Sécurité"
+  },
+  "home": {
+    "hero": {
+      "title": "Découvrez la Magie de la Mer Rouge",
+      "subtitle": "Aventures de plongée premium à Dahab, Égypte",
+      "cta": "Explorer la Plongée"
+    },
+    "whyUs": {
+      "title": "Pourquoi Choisir Dahab Divers?",
+      "subtitle": "La Différence Dahab Divers",
+      "items": [
+        {
+          "title": "Instructeurs Experts",
+          "desc": "Apprenez avec les meilleurs grâce à notre équipe certifiée et expérimentée."
+        },
+        {
+          "title": "Petits Groupes",
+          "desc": "Attention personnalisée avec des petits groupes pour la sécurité et le plaisir."
+        },
+        {
+          "title": "Équipement Premium",
+          "desc": "Matériel de pointe entretenu selon les normes les plus élevées."
+        }
+      ]
+    },
+    "specialOffer": {
+      "title": "Offre Spéciale",
+      "subtitle": "Offre limitée sur notre forfait de plongée le plus populaire",
+      "bestValue": "MEILLEURE VALEUR",
+      "bookNow": "Réserver Maintenant",
+      "limitedOffer": "Offre limitée • Économisez 20€"
+    },
+    "popularCourses": {
+      "title": "Cours Populaires",
+      "subtitle": "Commencez Votre Aventure",
+      "cta": "Voir Détails"
+    },
+    "diveSites": {
+      "title": "Sites de Plongée Légendaires",
+      "subtitle": "Explorez la Mer Rouge",
+      "cta": "Explorer le Site"
+    },
+    "testimonials": {
+      "title": "Ce Que Disent Nos Plongeurs",
+      "subtitle": "Avis Clients",
+      "items": [
+        {
+          "text": "Les instructeurs de Dahab Divers sont exceptionnels. Ils ont fait de ma première plongée en eau libre une expérience inoubliable. L'attention portée à la sécurité et les conseils personnalisés étaient remarquables.",
+          "name": "Michael Roberts",
+          "course": "Certification Open Water"
+        },
+        {
+          "text": "Je plonge avec Dahab Divers depuis trois ans maintenant. Leurs excursions quotidiennes au Blue Hole et au Canyon sont toujours bien organisées et les rencontres avec la vie marine sont incroyables.",
+          "name": "Sarah Johnson",
+          "course": "Étudiante Divemaster"
+        },
+        {
+          "text": "Le forfait aventure du week-end était d'une valeur incroyable. Quatre plongées extraordinaires, de superbes sorties en bateau, et la photographie sous-marine était un merveilleux bonus. Je reviendrai certainement!",
+          "name": "Thomas Chen",
+          "course": "Forfait Week-end"
+        }
+      ]
+    },
+    "prefooter": {
+      "title": "Prêt pour une Aventure?",
+      "desc": "Rejoignez-nous pour une expérience de plongée inoubliable dans les eaux cristallines de la mer Rouge.",
+      "cta": "Nous Contacter"
+    },
+    "featuredSite": {
+      "legendary": "SITE DE PLONGÉE LÉGENDAIRE",
+      "cta": "Explorer les Sites de Plongée"
+    },
+    "showcase": {
+      "title": "Expérimentez l'Extraordinaire",
+      "subtitle": "Découvrez notre collection sélectionnée d'expériences de plongée premium qui présentent le meilleur de la Mer Rouge",
+      "items": [
+        {
+          "title": "Photographie Sous-marine",
+          "description": "Capturez la vie marine époustouflante et les coraux vibrants avec nos plongées de photographie spécialisées",
+          "stats": [
+            "Guide professionnel inclus",
+            "Location d'appareil photo disponible",
+            "Meilleures conditions d'éclairage"
+          ]
+        },
+        {
+          "title": "Aventures de Plongée Nocturne",
+          "description": "Découvrez la transformation magique du récif alors que la vie marine nocturne émerge",
+          "stats": [
+            "Petits groupes",
+            "Certification avancée requise",
+            "Merveilles bioluminescentes"
+          ]
+        },
+        {
+          "title": "Exploration d'Épaves",
+          "description": "Explorez les épaves fascinantes et découvrez les histoires sous les vagues",
+          "stats": [
+            "Épaves historiques",
+            "Certification plongée profonde requise",
+            "Biodiversité marine"
+          ]
+        },
+        {
+          "title": "Visites Biologiques Marines",
+          "description": "Apprenez des biologistes marins experts sur les écosystèmes et la conservation de la Mer Rouge",
+          "stats": [
+            "Focus éducatif",
+            "Activités de conservation",
+            "Guidance d'experts"
+          ]
+        }
+      ]
+    }
+  },
+  "diving": {
+    "header": {
+      "title": "Plongée à Dahab",
+      "subtitle": "Explorez les sites de plongée mondialement connus de Dahab"
+    },
+    "packages": {
+      "title": "Forfaits Plongée",
+      "subtitle": "Plongez plus – payez moins. Choisissez parmi nos forfaits soigneusement conçus pour tous les niveaux de plongeurs.",
+      "cta": "Réserver Maintenant"
+    },
+    "sites": {
+      "title": "Sites de Plongée Populaires",
+      "subtitle": "Explorez les sites de plongée légendaires de Dahab, chacun offrant des expériences sous-marines uniques.",
+      "cta": "Réserver Plongée"
+    },
+    "whyUs": {
+      "title": "Pourquoi Plonger avec Dahab Divers?",
+      "subtitle": "Découvrez le meilleur de la plongée en mer Rouge avec notre équipe professionnelle et nos services premium.",
+      "items": [
+        {
+          "title": "Centre PADI 5 Étoiles",
+          "desc": "Certifié comme centre de plongée PADI 5 étoiles avec des instructeurs reconnus internationalement."
+        },
+        {
+          "title": "Horaires Flexibles",
+          "desc": "Excursions de plongée quotidiennes avec planification flexible pour s'adapter à vos plans de vacances."
+        },
+        {
+          "title": "Service de Premier Ordre",
+          "desc": "Constamment noté 4,8+ par nos clients avec une attention personnalisée."
+        }
+      ]
+    }
+  },
+  "courses": {
+    "header": {
+      "title": "Cours",
+      "subtitle": "Commencez votre parcours de plongée ou perfectionnez vos compétences"
+    },
+    "info": {
+      "title": "Cours de Certification PADI",
+      "subtitle": "Nos cours PADI sont conçus pour vous faire passer de débutant complet à plongeur professionnel. Tous les cours sont dispensés par des instructeurs PADI certifiés avec des années d'expérience en mer Rouge.",
+      "badges": {
+        "recognized": "Reconnu Internationalement",
+        "smallGroups": "Petits Groupes",
+        "safety": "Sécurité d'Abord"
+      }
+    },
+    "cta": "S'inscrire Maintenant",
+    "progression": {
+      "title": "Parcours de Progression des Cours",
+      "subtitle": "Suivez notre parcours recommandé pour devenir un plongeur confiant et compétent",
+      "descriptions": {
+        "openWater": "Commencez votre parcours de plongée avec le cours fondamental Open Water.",
+        "advanced": "Élargissez vos compétences et plongez plus profondément avec le cours Advanced Open Water.",
+        "rescue": "Apprenez à prévenir et gérer les problèmes dans l'eau avec le cours Rescue Diver.",
+        "divemaster": "Commencez votre carrière professionnelle de plongée avec le cours Divemaster."
+      }
+    }
+  },
+  "about": {
+    "header": {
+      "title": "À propos",
+      "subtitle": "Notre passion pour l'océan est profonde"
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "subtitle": "Depuis 2008",
+      "paragraphs": [
+        "Fondé par un groupe de plongeurs passionnés, Dahab Divers a démarré avec une mission simple : partager l'incroyable beauté de la mer Rouge avec le monde tout en maintenant les plus hauts standards de sécurité et de conservation.",
+        "Au fil des années, nous sommes passés d'un petit centre de plongée à l'un des centres de plongée les plus réputés de Dahab, mais nos valeurs fondamentales restent les mêmes. Nous croyons aux expériences personnalisées, aux petits groupes et à traiter chaque plongeur comme un membre de la famille."
+      ]
+    },
+    "team": {
+      "title": "Rencontrez l'Équipe",
+      "subtitle": "Instructeurs Experts"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contact",
+      "subtitle": "Contactez-nous pour planifier votre aventure sous-marine"
+    },
+    "info": {
+      "title": "Nous Contacter",
+      "subtitle": "Nous sommes là pour vous aider",
+      "location": {
+        "title": "Notre Emplacement",
+        "address": "Masbat Bay, Dahab\nSud du Sinaï, Égypte"
+      },
+      "phone": {
+        "title": "Téléphone / WhatsApp",
+        "number": "+20 100 123 4567"
+      },
+      "email": {
+        "title": "Email",
+        "address": "info@dahabdivers.com"
+      },
+      "hours": {
+        "title": "Heures d'Ouverture",
+        "time": "Tous les jours : 08h00 - 20h00"
+      }
+    },
+    "booking": {
+      "title": "Réservez Votre Plongée",
+      "subtitle": "Réservation",
+      "form": {
+        "name": "Nom Complet",
+        "email": "Adresse Email",
+        "date": "Date Préférée",
+        "activity": "Type de Plongée",
+        "message": "Message",
+        "messagePlaceholder": "Parlez-nous de votre expérience de plongée ou de vos besoins spécifiques...",
+        "submit": "Envoyer la Demande de Réservation",
+        "submitting": "Envoi en cours...",
+        "success": "Demande de réservation envoyée avec succès! Nous vous contacterons dans les 24 heures.",
+        "error": "Échec de l'envoi de la demande. Veuillez réessayer ou nous contacter directement.",
+        "errors": {
+          "nameRequired": "Le nom est requis",
+          "emailRequired": "L'email est requis",
+          "emailInvalid": "Veuillez entrer une adresse email valide",
+          "dateRequired": "Veuillez sélectionner une date"
+        }
+      }
+    }
+  },
+  "stats": {
+    "divers": "Plongeurs Satisfaits",
+    "experience": "Années d'Expérience",
+    "sites": "Sites de Plongée",
+    "instructors": "Instructeurs Certifiés"
+  },
+  "trust": {
+    "padi": "Centre PADI 5 Étoiles",
+    "safety": "Sécurité d'Abord",
+    "eco": "Éco-Responsable"
+  },
+  "footer": {
+    "tagline": "Expériences de plongée premium au cœur de la mer Rouge. Découvrez le monde sous-marin en toute sécurité, confort et style.",
+    "quickLinks": {
+      "blueHole": "Blue Hole",
+      "canyon": "Canyon",
+      "safaris": "Safaris en Bateau",
+      "courses": "Cours PADI"
+    },
+    "social": "Suivez-nous",
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "readMore": "Lire Plus",
+    "learnMore": "En Savoir Plus",
+    "bookNow": "Réserver Maintenant",
+    "contactUs": "Nous Contacter",
+    "viewAll": "Voir Tout",
+    "close": "Fermer",
+    "menu": "Menu"
+  },
+  "filter": {
+    "filters": "Filtres",
+    "packages": "Forfaits",
+    "sites": "Sites",
+    "searchPlaceholder": "Rechercher des forfaits ou sites de plongée par nom ou caractéristiques...",
+    "experienceLevel": "Niveau d'Expérience",
+    "depthRange": "Plage de Profondeur",
+    "minimumRating": "Note Minimale",
+    "sortBy": "Trier par",
+    "allDepths": "Toutes Profondeurs",
+    "shallowDepth": "Peu Profond (0-20m)",
+    "mediumDepth": "Moyen (20-40m)",
+    "deepDepth": "Profond (40m+)",
+    "highestRated": "Mieux Notés",
+    "priceLowHigh": "Prix: Croissant",
+    "priceHighLow": "Prix: Décroissant",
+    "nameAZ": "Nom A-Z",
+    "all": "Tous",
+    "clear": "Effacer",
+    "applyFilters": "Appliquer les Filtres",
+    "reset": "Réinitialiser",
+    "showingResults": "Affichage",
+    "matchingCriteria": "correspondant à vos critères",
+    "clearAll": "Tout effacer"
+  }
+}

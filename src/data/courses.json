@@ -1,0 +1,62 @@
+[
+    {
+        "id": "open-water",
+        "title": "Open Water Diver",
+        "price": "€350",
+        "duration": "3-4 Days",
+        "level": "Beginner",
+        "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop",
+        "certification": "PADI",
+        "maxDepth": "18m"
+    },
+    {
+        "id": "advanced",
+        "title": "Advanced Open Water",
+        "price": "€300",
+        "duration": "2-3 Days",
+        "level": "Advanced",
+        "image": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?q=80&w=2070&auto=format&fit=crop",
+        "certification": "PADI",
+        "maxDepth": "30m"
+    },
+    {
+        "id": "rescue",
+        "title": "Rescue Diver",
+        "price": "€400",
+        "duration": "3-4 Days",
+        "level": "Pro",
+        "image": "https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?q=80&w=2070&auto=format&fit=crop",
+        "certification": "PADI",
+        "maxDepth": "40m"
+    },
+    {
+        "id": "divemaster",
+        "title": "Divemaster",
+        "price": "€1,200",
+        "duration": "4-6 Weeks",
+        "level": "Professional",
+        "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=2074&auto=format&fit=crop",
+        "certification": "PADI",
+        "maxDepth": "40m"
+    },
+    {
+        "id": "specialty",
+        "title": "Specialty Courses",
+        "price": "€150-€300",
+        "duration": "1-2 Days",
+        "level": "Specialized",
+        "image": "https://images.unsplash.com/photo-1632833239869-a37e3a5806d2?q=80&w=2069&auto=format&fit=crop",
+        "certification": "PADI",
+        "maxDepth": "Varies"
+    },
+    {
+        "id": "technical",
+        "title": "Technical Diving",
+        "price": "€800-€2,500",
+        "duration": "1-4 Weeks",
+        "level": "Technical",
+        "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070&auto=format&fit=crop",
+        "certification": "PADI/TDI",
+        "maxDepth": "70m+"
+    }
+]

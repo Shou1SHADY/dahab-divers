@@ -1,0 +1,62 @@
+[
+    {
+        "id": "blue-hole",
+        "title": "Blue Hole",
+        "depth": "130m",
+        "level": "Technical",
+        "description": "The most famous dive site in Dahab. A submarine sinkhole with crystal clear water and stunning blue colors. Known for its deep walls and unique geological formations.",
+        "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070&auto=format&fit=crop",
+        "rating": 5,
+        "location": "Dahab"
+    },
+    {
+        "id": "canyon",
+        "title": "The Canyon",
+        "depth": "30m",
+        "level": "Advanced",
+        "description": "A deep fissure in the reef table, famous for its light effects and glassfish. One of the most photographed dive sites in the Red Sea with incredible underwater landscapes.",
+        "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=2074&auto=format&fit=crop",
+        "rating": 4.8,
+        "location": "Dahab"
+    },
+    {
+        "id": "lighthouse",
+        "title": "Lighthouse",
+        "depth": "20m",
+        "level": "Beginner",
+        "description": "Perfect for training and night dives. Features a seagrass area and coral wall. Great for beginners and offers consistent marine life encounters.",
+        "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070&auto=format&fit=crop",
+        "rating": 4.5,
+        "location": "Dahab"
+    },
+    {
+        "id": "three-reefs",
+        "title": "Three Reefs",
+        "depth": "15m",
+        "level": "Beginner",
+        "description": "A series of three reefs separated by sandy patches. Excellent for snorkeling and beginner diving with abundant marine life and coral formations.",
+        "image": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?q=80&w=2070&auto=format&fit=crop",
+        "rating": 4.6,
+        "location": "Dahab"
+    },
+    {
+        "id": "temple",
+        "title": "The Temple",
+        "depth": "25m",
+        "level": "Advanced",
+        "description": "Named for its temple-like coral formations. Features dramatic drop-offs and is known for encounters with larger marine life including sharks and rays.",
+        "image": "https://images.unsplash.com/photo-1632833239869-a37e3a5806d2?q=80&w=2069&auto=format&fit=crop",
+        "rating": 4.7,
+        "location": "Dahab"
+    },
+    {
+        "id": "challenger-reef",
+        "title": "Challenger Reef",
+        "depth": "40m",
+        "level": "Advanced",
+        "description": "A deep reef with spectacular coral gardens and dramatic walls. Known for its excellent visibility and diverse marine ecosystem including pelagic species.",
+        "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop",
+        "rating": 4.9,
+        "location": "Dahab"
+    }
+]

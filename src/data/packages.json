@@ -1,0 +1,83 @@
+[
+    {
+        "id": "discovery",
+        "title": "Discovery Dive",
+        "price": "€75",
+        "duration": "Half Day",
+        "dives": 1,
+        "level": "Beginner",
+        "features": [
+            "Introductory dive experience",
+            "Professional instructor guidance",
+            "All equipment included",
+            "Certificate of completion"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": "daily",
+        "title": "Daily Dive Package",
+        "price": "€45",
+        "duration": "Per Day",
+        "dives": 1,
+        "level": "All Levels",
+        "features": [
+            "One guided dive per day",
+            "Boat trip included",
+            "All equipment provided",
+            "Refreshments on boat"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": "weekend",
+        "title": "Weekend Adventure",
+        "price": "€160",
+        "duration": "2 Days",
+        "dives": 4,
+        "level": "Intermediate",
+        "features": [
+            "4 guided dives over 2 days",
+            "Boat trips included",
+            "All equipment provided",
+            "Lunch included",
+            "Underwater photos"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": "week",
+        "title": "Dive Week Special",
+        "price": "€280",
+        "duration": "7 Days",
+        "dives": 14,
+        "level": "All Levels",
+        "features": [
+            "14 guided dives over 7 days",
+            "All boat trips included",
+            "Equipment rental included",
+            "Daily lunch provided",
+            "Underwater photography",
+            "Certificate of completion"
+        ],
+        "rating": 5.0
+    },
+    {
+        "id": "pro",
+        "title": "Professional Package",
+        "price": "€850",
+        "duration": "10 Days",
+        "dives": 25,
+        "level": "Advanced",
+        "features": [
+            "25 guided dives over 10 days",
+            "All boat trips included",
+            "Premium equipment rental",
+            "Daily meals provided",
+            "Underwater videography",
+            "Night diving sessions",
+            "Specialty course discount"
+        ],
+        "rating": 4.9
+    }
+]

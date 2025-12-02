@@ -1,0 +1,315 @@
+{
+    "nav": {
+        "home": "Home",
+        "diving": "Duiken in Dahab",
+        "courses": "Cursussen",
+        "about": "Over Ons",
+        "contact": "Contact",
+        "divingSites": "Duiklocaties",
+        "divePackages": "Duikpakketten",
+        "bookDive": "Duik Boeken",
+        "beginnerCourses": "Beginnerscursussen",
+        "advancedCourses": "Gevorderde Cursussen",
+        "professionalCourses": "Professionele Cursussen",
+        "specialtyCourses": "Specialistische Cursussen",
+        "ourStory": "Ons Verhaal",
+        "ourTeam": "Ons Team",
+        "certifications": "Certificeringen & Veiligheid"
+    },
+    "home": {
+        "hero": {
+            "title": "Ervaar de Magie van de Rode Zee",
+            "subtitle": "Premium duikavonturen in Dahab, Egypte",
+            "cta": "Ontdek Duiken"
+        },
+        "whyUs": {
+            "title": "Waarom Dahab Divers?",
+            "subtitle": "Het Dahab Divers Verschil",
+            "items": [
+                {
+                    "title": "Expert Instructeurs",
+                    "desc": "Leer van de besten met ons gecertificeerde en ervaren team."
+                },
+                {
+                    "title": "Kleine Groepen",
+                    "desc": "Persoonlijke aandacht met kleine groepen voor veiligheid en plezier."
+                },
+                {
+                    "title": "Premium Uitrusting",
+                    "desc": "Topkwaliteit uitrusting onderhouden volgens de hoogste standaarden."
+                }
+            ]
+        },
+        "specialOffer": {
+            "title": "Speciale Aanbieding",
+            "subtitle": "Tijdelijke aanbieding op ons populairste duikpakket",
+            "bestValue": "BESTE WAARDE",
+            "bookNow": "Nu Boeken",
+            "limitedOffer": "Tijdelijke aanbieding • Bespaar €20"
+        },
+        "popularCourses": {
+            "title": "Populaire Cursussen",
+            "subtitle": "Start Uw Avontuur",
+            "cta": "Bekijk Details"
+        },
+        "diveSites": {
+            "title": "Legendarische Duiklocaties",
+            "subtitle": "Verken de Rode Zee",
+            "cta": "Verken Locatie"
+        },
+        "testimonials": {
+            "title": "Wat Onze Duikers Zeggen",
+            "subtitle": "Klantbeoordelingen",
+            "items": [
+                {
+                    "text": "De instructeurs bij Dahab Divers zijn uitzonderlijk. Ze maakten mijn eerste open water duik tot een onvergetelijke ervaring. De aandacht voor veiligheid en persoonlijke begeleiding was uitstekend.",
+                    "name": "Michael Roberts",
+                    "course": "Open Water Certificering"
+                },
+                {
+                    "text": "Ik duik nu al drie jaar met Dahab Divers. Hun dagelijkse duiktrips naar het Blue Hole en The Canyon zijn altijd goed georganiseerd en de ontmoetingen met het zeeleven zijn ongelooflijk.",
+                    "name": "Sarah Johnson",
+                    "course": "Divemaster Student"
+                },
+                {
+                    "text": "Het weekend avontuurpakket was ongelooflijk de moeite waard. Vier geweldige duiken, fantastische boottochten, en de onderwaterfotografie was een prachtige bonus. Ik kom zeker terug!",
+                    "name": "Thomas Chen",
+                    "course": "Weekendpakket"
+                }
+            ]
+        },
+        "prefooter": {
+            "title": "Klaar voor een Avontuur?",
+            "desc": "Kom samen met ons een onvergetelijke duikervaring beleven in het kristalheldere water van de Rode Zee.",
+            "cta": "Neem Contact Op"
+        },
+        "featuredSite": {
+            "legendary": "LEGENDARISCHE DUIKPLAATS",
+            "cta": "Duikplaatsen Ontdekken"
+        },
+        "showcase": {
+            "title": "Ervaar het Buitengewone",
+            "subtitle": "Ontdek onze zorgvuldig geselecteerde collectie van premium duikervaringen die het beste van de Rode Zee presenteren",
+            "items": [
+                {
+                    "title": "Onderwaterfotografie",
+                    "description": "Maak prachtige foto's van zeeleven en kleurrijke koraalriffen met onze gespecialiseerde fotografieduiken",
+                    "stats": [
+                        "Professionele gids inbegrepen",
+                        "Cameraverhuur beschikbaar",
+                        "Beste lichtomstandigheden"
+                    ]
+                },
+                {
+                    "title": "Nachtduik Avonturen",
+                    "description": "Ervaar de magische transformatie van het rif wanneer nachtelijk zeeleven tevoorschijn komt",
+                    "stats": [
+                        "Kleine groepsgroottes",
+                        "Gevorderde certificatie vereist",
+                        "Bioluminescente wonderen"
+                    ]
+                },
+                {
+                    "title": "Wrak Verkenning",
+                    "description": "Verken fascinerende scheepswrakken en ontdek de verhalen onder de golven",
+                    "stats": [
+                        "Historische wrakken",
+                        "Diepduik certificatie vereist",
+                        "Marine biodiversiteit"
+                    ]
+                },
+                {
+                    "title": "Mariene Biologie Tours",
+                    "description": "Leer van expert mariene biologen over Rode Zee ecosystemen en conservatie",
+                    "stats": [
+                        "Educatieve focus",
+                        "Conserveringsactiviteiten",
+                        "Expert begeleiding"
+                    ]
+                }
+            ]
+        }
+    },
+    "diving": {
+        "header": {
+            "title": "Duiken in Dahab",
+            "subtitle": "Verken de wereldberoemde duiklocaties van Dahab"
+        },
+        "packages": {
+            "title": "Duikpakketten",
+            "subtitle": "Meer duiken – minder betalen. Kies uit onze zorgvuldig samengestelde pakketten voor alle niveaus duikers.",
+            "cta": "Nu Boeken"
+        },
+        "sites": {
+            "title": "Populaire Duiklocaties",
+            "subtitle": "Verken de legendarische duiklocaties van Dahab, elk met unieke onderwaterervaringen.",
+            "cta": "Duik Boeken"
+        },
+        "whyUs": {
+            "title": "Waarom Duiken met Dahab Divers?",
+            "subtitle": "Ervaar het beste van duiken in de Rode Zee met ons professionele team en premium diensten.",
+            "items": [
+                {
+                    "title": "5-Sterren PADI Centrum",
+                    "desc": "Gecertificeerd als 5-sterren PADI duikcentrum met internationaal erkende instructeurs."
+                },
+                {
+                    "title": "Flexibel Schema",
+                    "desc": "Dagelijkse duiktrips met flexibele planning om aan uw vakantieplanning te voldoen."
+                },
+                {
+                    "title": "Topservice",
+                    "desc": "Consistent beoordeeld met 4,8+ door onze klanten met persoonlijke aandacht."
+                }
+            ]
+        }
+    },
+    "courses": {
+        "header": {
+            "title": "Cursussen",
+            "subtitle": "Begin uw duikreis of verbeter uw vaardigheden"
+        },
+        "info": {
+            "title": "PADI Certificeringscursussen",
+            "subtitle": "Onze PADI-cursussen zijn ontworpen om u van complete beginner naar professionele duiker te brengen. Alle cursussen worden gegeven door gecertificeerde PADI-instructeurs met jarenlange ervaring in de Rode Zee.",
+            "badges": {
+                "recognized": "Internationaal Erkend",
+                "smallGroups": "Kleine Groepen",
+                "safety": "Veiligheid Eerst"
+            }
+        },
+        "cta": "Nu Inschrijven",
+        "progression": {
+            "title": "Cursus Progressiepad",
+            "subtitle": "Volg ons aanbevolen pad om een zelfverzekerde en bekwame duiker te worden",
+            "descriptions": {
+                "openWater": "Begin uw duikreis met de fundamentele Open Water cursus.",
+                "advanced": "Breid uw vaardigheden uit en duik dieper met de Advanced Open Water cursus.",
+                "rescue": "Leer problemen in het water te voorkomen en te beheren met de Rescue Diver cursus.",
+                "divemaster": "Begin uw professionele duikcarrière met de Divemaster cursus."
+            }
+        }
+    },
+    "about": {
+        "header": {
+            "title": "Over Ons",
+            "subtitle": "Onze passie voor de oceaan is diep"
+        },
+        "story": {
+            "title": "Ons Verhaal",
+            "subtitle": "Sinds 2008",
+            "paragraphs": [
+                "Opgericht door een groep gepassioneerde duikers, begon Dahab Divers met een eenvoudige missie: de ongelooflijke schoonheid van de Rode Zee met de wereld delen, terwijl we de hoogste normen voor veiligheid en behoud handhaven.",
+                "Door de jaren heen zijn we gegroeid van een kleine duikshop tot een van de toonaangevende duikcentra van Dahab, maar onze kernwaarden blijven hetzelfde. We geloven in persoonlijke ervaringen, kleine groepen en het behandelen van elke duiker als familie."
+            ]
+        },
+        "team": {
+            "title": "Ontmoet Het Team",
+            "subtitle": "Expert Instructeurs"
+        }
+    },
+    "contact": {
+        "header": {
+            "title": "Contact",
+            "subtitle": "Neem contact op om uw onderwateravontuur te plannen"
+        },
+        "info": {
+            "title": "Neem Contact Op",
+            "subtitle": "We zijn er om te helpen",
+            "location": {
+                "title": "Onze Locatie",
+                "address": "Masbat Bay, Dahab\nZuid-Sinaï, Egypte"
+            },
+            "phone": {
+                "title": "Telefoon / WhatsApp",
+                "number": "+20 100 123 4567"
+            },
+            "email": {
+                "title": "E-mail",
+                "address": "info@dahabdivers.com"
+            },
+            "hours": {
+                "title": "Openingstijden",
+                "time": "Dagelijks: 08:00 - 20:00"
+            }
+        },
+        "booking": {
+            "title": "Boek Uw Duik",
+            "subtitle": "Reservering",
+            "form": {
+                "name": "Volledige Naam",
+                "email": "E-mailadres",
+                "date": "Gewenste Datum",
+                "activity": "Duik Type",
+                "message": "Bericht",
+                "messagePlaceholder": "Vertel ons over uw duikervaring of speciale vereisten...",
+                "submit": "Boekingsverzoek Verzenden",
+                "submitting": "Verzenden...",
+                "success": "Boekingsverzoek succesvol verzonden! We nemen binnen 24 uur contact met u op.",
+                "error": "Verzenden van boekingsverzoek mislukt. Probeer het opnieuw of neem direct contact met ons op.",
+                "errors": {
+                    "nameRequired": "Naam is verplicht",
+                    "emailRequired": "E-mail is verplicht",
+                    "emailInvalid": "Voer een geldig e-mailadres in",
+                    "dateRequired": "Selecteer een datum"
+                }
+            }
+        }
+    },
+    "stats": {
+        "divers": "Tevreden Duikers",
+        "experience": "Jaar Ervaring",
+        "sites": "Duiklocaties",
+        "instructors": "Gecertificeerde Instructeurs"
+    },
+    "trust": {
+        "padi": "PADI 5-Sterren Centrum",
+        "safety": "Veiligheid Eerst",
+        "eco": "Milieuvriendelijk"
+    },
+    "footer": {
+        "tagline": "Premium duikervaringen in het hart van de Rode Zee. Ontdek de onderwaterwereld met veiligheid, comfort en stijl.",
+        "quickLinks": {
+            "blueHole": "Blue Hole",
+            "canyon": "Canyon",
+            "safaris": "Bootsafari's",
+            "courses": "PADI Cursussen"
+        },
+        "social": "Volg Ons",
+        "rights": "Alle rechten voorbehouden."
+    },
+    "common": {
+        "readMore": "Lees Meer",
+        "learnMore": "Meer Informatie",
+        "bookNow": "Nu Boeken",
+        "contactUs": "Neem Contact Op",
+        "viewAll": "Bekijk Alles",
+        "close": "Sluiten",
+        "menu": "Menu"
+    },
+    "filter": {
+        "filters": "Filters",
+        "packages": "Pakketten",
+        "sites": "Duikplaatsen",
+        "searchPlaceholder": "Zoek pakketten of duikplaatsen op naam of kenmerken...",
+        "experienceLevel": "Ervaringsniveau",
+        "depthRange": "Dieptebereik",
+        "minimumRating": "Minimale Beoordeling",
+        "sortBy": "Sorteren op",
+        "allDepths": "Alle Dieptes",
+        "shallowDepth": "Ondiep (0-20m)",
+        "mediumDepth": "Middel (20-40m)",
+        "deepDepth": "Diep (40m+)",
+        "highestRated": "Hoogst Beoordeeld",
+        "priceLowHigh": "Prijs: Laag naar Hoog",
+        "priceHighLow": "Prijs: Hoog naar Laag",
+        "nameAZ": "Naam A-Z",
+        "all": "Alle",
+        "clear": "Wissen",
+        "applyFilters": "Filters Toepassen",
+        "reset": "Resetten",
+        "showingResults": "Weergeven",
+        "matchingCriteria": "overeenkomend met uw criteria",
+        "clearAll": "Alles wissen"
+    }
+}

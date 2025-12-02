@@ -1,0 +1,315 @@
+{
+  "nav": {
+    "home": "Home",
+    "diving": "Diving in Dahab",
+    "courses": "Courses",
+    "about": "About Us",
+    "contact": "Contact",
+    "divingSites": "Dive Sites",
+    "divePackages": "Dive Packages",
+    "bookDive": "Book a Dive",
+    "beginnerCourses": "Beginner Courses",
+    "advancedCourses": "Advanced Courses",
+    "professionalCourses": "Professional Courses",
+    "specialtyCourses": "Specialty Courses",
+    "ourStory": "Our Story",
+    "ourTeam": "Our Team",
+    "certifications": "Certifications & Safety"
+  },
+  "home": {
+    "hero": {
+      "title": "Experience the Magic of the Red Sea",
+      "subtitle": "Premium diving adventures in Dahab, Egypt",
+      "cta": "Explore Diving"
+    },
+    "whyUs": {
+      "title": "Why Choose Dahab Divers?",
+      "subtitle": "The Dahab Divers Difference",
+      "items": [
+        {
+          "title": "Expert Instructors",
+          "desc": "Learn from the best with our certified and experienced team."
+        },
+        {
+          "title": "Small Groups",
+          "desc": "Personalized attention with small group sizes for safety and fun."
+        },
+        {
+          "title": "Premium Equipment",
+          "desc": "Top-of-the-line gear maintained to the highest standards."
+        }
+      ]
+    },
+    "specialOffer": {
+      "title": "Special Offer",
+      "subtitle": "Limited time offer on our most popular dive package",
+      "bestValue": "BEST VALUE",
+      "bookNow": "Book Now",
+      "limitedOffer": "Limited time offer • Save €20"
+    },
+    "popularCourses": {
+      "title": "Popular Courses",
+      "subtitle": "Start Your Adventure",
+      "cta": "View Details"
+    },
+    "diveSites": {
+      "title": "Legendary Dive Sites",
+      "subtitle": "Explore the Red Sea",
+      "cta": "Explore Site"
+    },
+    "testimonials": {
+      "title": "What Our Divers Say",
+      "subtitle": "Customer Reviews",
+      "items": [
+        {
+          "text": "The instructors at Dahab Divers are exceptional. They made my first open water dive an unforgettable experience. The attention to safety and personalized guidance was outstanding.",
+          "name": "Michael Roberts",
+          "course": "Open Water Certification"
+        },
+        {
+          "text": "I've been diving with Dahab Divers for three years now. Their daily dive trips to the Blue Hole and The Canyon are always well-organized and the marine life encounters are incredible.",
+          "name": "Sarah Johnson",
+          "course": "Divemaster Student"
+        },
+        {
+          "text": "The weekend adventure package was incredible value. Four amazing dives, great boat trips, and the underwater photography was a wonderful bonus. Will definitely return!",
+          "name": "Thomas Chen",
+          "course": "Weekend Package"
+        }
+      ]
+    },
+    "prefooter": {
+      "title": "Ready for an Adventure?",
+      "desc": "Join us for an unforgettable diving experience in the crystal-clear waters of the Red Sea.",
+      "cta": "Contact Us"
+    },
+    "featuredSite": {
+      "legendary": "LEGENDARY DIVE SITE",
+      "cta": "Explore Dive Sites"
+    },
+    "showcase": {
+      "title": "Experience the Extraordinary",
+      "subtitle": "Discover our handpicked collection of premium diving experiences that showcase the very best of the Red Sea",
+      "items": [
+        {
+          "title": "Underwater Photography",
+          "description": "Capture stunning marine life and vibrant coral reefs with our specialized photography dives",
+          "stats": [
+            "Professional guide included",
+            "Camera rental available",
+            "Best lighting conditions"
+          ]
+        },
+        {
+          "title": "Night Diving Adventures",
+          "description": "Experience the magical transformation of the reef as nocturnal marine life emerges",
+          "stats": [
+            "Small group sizes",
+            "Advanced certification required",
+            "Bioluminescent wonders"
+          ]
+        },
+        {
+          "title": "Wreck Exploration",
+          "description": "Explore fascinating shipwrecks and uncover the stories beneath the waves",
+          "stats": [
+            "Historical wrecks",
+            "Deep dive certification",
+            "Marine biodiversity"
+          ]
+        },
+        {
+          "title": "Marine Biology Tours",
+          "description": "Learn from expert marine biologists about Red Sea ecosystems and conservation",
+          "stats": [
+            "Educational focus",
+            "Conservation activities",
+            "Expert guidance"
+          ]
+        }
+      ]
+    }
+  },
+  "diving": {
+    "header": {
+      "title": "Diving in Dahab",
+      "subtitle": "Explore the world-famous dive sites of Dahab"
+    },
+    "packages": {
+      "title": "Dive Packages",
+      "subtitle": "Dive more – pay less. Choose from our carefully crafted packages designed for all levels of divers.",
+      "cta": "Book Now"
+    },
+    "sites": {
+      "title": "Popular Dive Sites",
+      "subtitle": "Explore the legendary dive sites of Dahab, each offering unique underwater experiences.",
+      "cta": "Book Dive"
+    },
+    "whyUs": {
+      "title": "Why Dive with Dahab Divers?",
+      "subtitle": "Experience the best of Red Sea diving with our professional team and premium services.",
+      "items": [
+        {
+          "title": "5-Star PADI Center",
+          "desc": "Certified as a 5-star PADI dive center with internationally recognized instructors."
+        },
+        {
+          "title": "Flexible Schedule",
+          "desc": "Daily dive trips with flexible scheduling to match your vacation plans."
+        },
+        {
+          "title": "Top-Rated Service",
+          "desc": "Consistently rated 4.8+ by our customers with personalized attention."
+        }
+      ]
+    }
+  },
+  "courses": {
+    "header": {
+      "title": "Courses",
+      "subtitle": "Start your diving journey or advance your skills"
+    },
+    "info": {
+      "title": "PADI Certification Courses",
+      "subtitle": "Our PADI courses are designed to take you from complete beginner to professional diver. All courses are conducted by certified PADI instructors with years of experience in the Red Sea.",
+      "badges": {
+        "recognized": "Internationally Recognized",
+        "smallGroups": "Small Group Sizes",
+        "safety": "Safety First"
+      }
+    },
+    "cta": "Enroll Now",
+    "progression": {
+      "title": "Course Progression Path",
+      "subtitle": "Follow our recommended path to become a confident and skilled diver",
+      "descriptions": {
+        "openWater": "Start your diving journey with the foundational Open Water course.",
+        "advanced": "Expand your skills and dive deeper with the Advanced Open Water course.",
+        "rescue": "Learn to prevent and manage problems in the water with the Rescue Diver course.",
+        "divemaster": "Begin your professional diving career with the Divemaster course."
+      }
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About Us",
+      "subtitle": "Our passion for the ocean runs deep"
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "Since 2008",
+      "paragraphs": [
+        "Founded by a group of passionate divers, Dahab Divers started with a simple mission: to share the incredible beauty of the Red Sea with the world while maintaining the highest standards of safety and conservation.",
+        "Over the years, we have grown from a small dive shack into one of Dahab's premier dive centers, but our core values remain the same. We believe in personalized experiences, small groups, and treating every diver like family."
+      ]
+    },
+    "team": {
+      "title": "Meet The Team",
+      "subtitle": "Expert Instructors"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contact",
+      "subtitle": "Get in touch to plan your underwater adventure"
+    },
+    "info": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help",
+      "location": {
+        "title": "Our Location",
+        "address": "Masbat Bay, Dahab\nSouth Sinai, Egypt"
+      },
+      "phone": {
+        "title": "Phone / WhatsApp",
+        "number": "+20 100 123 4567"
+      },
+      "email": {
+        "title": "Email",
+        "address": "info@dahabdivers.com"
+      },
+      "hours": {
+        "title": "Opening Hours",
+        "time": "Daily: 08:00 - 20:00"
+      }
+    },
+    "booking": {
+      "title": "Book Your Dive",
+      "subtitle": "Reservation",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "date": "Preferred Date",
+        "activity": "Dive Type",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your diving experience or any special requirements...",
+        "submit": "Send Booking Request",
+        "submitting": "Sending...",
+        "success": "Booking request sent successfully! We'll contact you within 24 hours.",
+        "error": "Failed to send booking request. Please try again or contact us directly.",
+        "errors": {
+          "nameRequired": "Name is required",
+          "emailRequired": "Email is required",
+          "emailInvalid": "Please enter a valid email address",
+          "dateRequired": "Please select a date"
+        }
+      }
+    }
+  },
+  "stats": {
+    "divers": "Happy Divers",
+    "experience": "Years Experience",
+    "sites": "Dive Sites",
+    "instructors": "Certified Instructors"
+  },
+  "trust": {
+    "padi": "PADI 5-Star Center",
+    "safety": "Safety First",
+    "eco": "Eco-Friendly"
+  },
+  "footer": {
+    "tagline": "Premium diving experiences in the heart of the Red Sea. Discover the underwater world with safety, comfort, and style.",
+    "quickLinks": {
+      "blueHole": "Blue Hole",
+      "canyon": "Canyon",
+      "safaris": "Boat Safaris",
+      "courses": "PADI Courses"
+    },
+    "social": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "bookNow": "Book Now",
+    "contactUs": "Contact Us",
+    "viewAll": "View All",
+    "close": "Close",
+    "menu": "Menu"
+  },
+  "filter": {
+    "filters": "Filters",
+    "packages": "Packages",
+    "sites": "Sites",
+    "searchPlaceholder": "Search packages or dive sites by name or features...",
+    "experienceLevel": "Experience Level",
+    "depthRange": "Depth Range",
+    "minimumRating": "Minimum Rating",
+    "sortBy": "Sort By",
+    "allDepths": "All Depths",
+    "shallowDepth": "Shallow (0-20m)",
+    "mediumDepth": "Medium (20-40m)",
+    "deepDepth": "Deep (40m+)",
+    "highestRated": "Highest Rated",
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "nameAZ": "Name A-Z",
+    "all": "All",
+    "clear": "Clear",
+    "applyFilters": "Apply Filters",
+    "reset": "Reset",
+    "showingResults": "Showing",
+    "matchingCriteria": "matching your criteria",
+    "clearAll": "Clear all"
+  }
+}

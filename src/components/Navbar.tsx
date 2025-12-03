@@ -405,7 +405,7 @@ export default function Navbar({ lang, dict }: NavbarProps) {
             {isMobileMenuOpen && (
                 <div 
                     id="mobile-menu"
-                    className="lg:hidden fixed top-0 left-0 right-0 bg-navy/95 backdrop-blur-md max-h-[100vh] overflow-y-auto shadow-xl animate-in slide-in-from-top duration-300 z-40"
+                    className="lg:hidden fixed top-0 left-0 right-0 bg-navy/95 backdrop-blur-md max-h-[100dvh] overflow-y-auto shadow-xl animate-in slide-in-from-top duration-300 z-40"
                     style={{ paddingTop: 'var(--nav-height, 80px)' }}
                 >
                     <div className="container mx-auto px-4 sm:px-6 py-4">

@@ -28,9 +28,9 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
         return (
             <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
-                    <Star 
-                        key={i} 
-                        className={`w-4 h-4 ${i < rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} 
+                    <Star
+                        key={i}
+                        className={`w-4 h-4 ${i < rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`}
                     />
                 ))}
                 <span className="text-xs text-gray-600 ml-1">({rating})</span>
@@ -40,7 +40,7 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
 
     // Get level color
     const getLevelColor = (level: string) => {
-        switch(level.toLowerCase()) {
+        switch (level.toLowerCase()) {
             case 'beginner': return 'bg-green-100 text-green-800';
             case 'intermediate': return 'bg-blue-100 text-blue-800';
             case 'advanced': return 'bg-orange-100 text-orange-800';
@@ -50,7 +50,7 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
     };
 
     return (
-        <Card className={`overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 relative ${pkg.bestValue ? 'ring-2 ring-turquoise' : ''} ${pkg.popular ? 'ring-2 ring-orange-400' : ''}`}>
+        <Card className={`h-full flex flex-col overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 relative ${pkg.bestValue ? 'ring-2 ring-turquoise' : ''} ${pkg.popular ? 'ring-2 ring-orange-400' : ''}`}>
             {/* Badge */}
             {pkg.bestValue && (
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-turquoise to-blue-500 text-white text-xs font-bold px-6 py-2 rounded-full whitespace-nowrap z-10 shadow-lg">
@@ -64,7 +64,7 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
                     POPULAR
                 </div>
             )}
-            
+
             <CardHeader className="pb-6 bg-gradient-to-br from-gray-50 to-white">
                 <div className="flex justify-between items-start">
                     <div className="flex-1">
@@ -87,14 +87,14 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
                         </div>
                     )}
                 </div>
-                
+
                 <div className="mt-6 flex items-baseline gap-2">
                     <span className="text-4xl font-bold text-navy">{pkg.price}</span>
                     <span className="text-lg text-gray-500">/{pkg.duration}</span>
                 </div>
             </CardHeader>
-            
-            <CardContent className="pb-6">
+
+            <CardContent className="flex-1 pb-6">
                 <div className="flex items-center gap-6 text-sm text-gray-600 mb-6 p-4 bg-gray-50 rounded-lg">
                     <div className="flex items-center gap-2">
                         <div className="w-8 h-8 bg-turquoise/10 rounded-full flex items-center justify-center">
@@ -109,7 +109,7 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
                         <span className="font-semibold">{pkg.duration}</span>
                     </div>
                 </div>
-                
+
                 {/* Equipment included indicator */}
                 {pkg.equipmentIncluded && (
                     <div className="flex items-center gap-2 text-sm text-green-600 mb-4 bg-green-50 px-3 py-2 rounded-lg">
@@ -117,7 +117,7 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
                         <span className="font-medium">Equipment Included</span>
                     </div>
                 )}
-                
+
                 <div className="space-y-3">
                     {pkg.features.map((feature, index) => (
                         <div key={index} className="flex items-start gap-3 group">
@@ -129,7 +129,7 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
                     ))}
                 </div>
             </CardContent>
-            
+
             <CardFooter className="p-0 px-6 pb-6 bg-gradient-to-t from-gray-50 to-white">
                 <Link href={`/${lang || 'en'}/contact?package=${encodeURIComponent(pkg.title)}`} prefetch={true} className="w-full">
                     <Button variant="secondary" className="w-full rounded-full py-3 text-base font-semibold group/btn hover:shadow-lg transition-all">

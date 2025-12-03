@@ -1,5 +1,95 @@
 @import "tailwindcss";
 
+/* stylelint-disable-next-line */
+@plugin "tailwind-scrollbar";
+
+/* Cross-browser normalization and consistent sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-gutter: stable;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* Force scrollbar to always show and reserve space */
+  /* Ensure consistent viewport sizing across browsers */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  /* Chrome-specific fixes to match Edge */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Ensure consistent baseline */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Additional Chrome-specific normalization */
+@supports (-webkit-appearance: none) {
+  html {
+    /* Chrome-specific viewport normalization */
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Ensure consistent scrollbar behavior across all browsers */
+html {
+  scrollbar-width: standard; /* Firefox */
+  scrollbar-color: #c1c1c1 #f1f1f1; /* Firefox fallback */
+}
+
+/* Style Chrome's scrollbar to match Edge's width and appearance */
+::-webkit-scrollbar {
+  width: 16px;
+  /* Match Edge's actual scrollbar width */
+  height: 16px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-left: 1px solid #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border: 3px solid #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #787878;
+}
+
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}
+
+/* Ensure scrollbar doesn't overlay content */
+@media (min-width: 1024px) {
+  html {
+    scrollbar-gutter: stable;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border: 2px solid #f1f1f1;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #0C1E35;
@@ -83,4 +173,12 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* Prevent hydration mismatches from browser extensions */
+  min-height: 100vh;
+  /* Ensure consistent sizing across browsers */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  -webkit-overflow-scrolling: touch;
 }

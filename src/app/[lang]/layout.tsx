@@ -19,6 +19,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "Dahab Divers - Premium Diving in Dahab",
     description: "Experience the magic of the Red Sea with Dahab Divers.",
+    viewport: {
+        width: 'device-width',
+        initialScale: 1,
+        maximumScale: 5,
+        userScalable: true,
+    },
 };
 
 export async function generateStaticParams() {
@@ -37,7 +43,7 @@ export default async function RootLayout({
 
     return (
         <html lang={lang} className={`${geistSans.variable} ${geistMono.variable}`}>
-            <body className="antialiased bg-background text-foreground">
+            <body className="antialiased bg-background text-foreground" suppressHydrationWarning={true}>
                 <Navbar lang={lang as Locale} dict={dict} />
                 {children}
                 <Footer lang={lang as Locale} dict={dict} />

@@ -50,33 +50,36 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
     };
 
     return (
-        <Card className={`h-full flex flex-col overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 relative ${pkg.bestValue ? 'ring-2 ring-turquoise' : ''} ${pkg.popular ? 'ring-2 ring-orange-400' : ''}`}>
+        <Card 
+            className={`h-full w-full flex flex-col overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 relative max-w-full ${pkg.bestValue ? 'ring-2 ring-turquoise' : ''} ${pkg.popular ? 'ring-2 ring-orange-400' : ''}`}
+            style={{ boxSizing: 'border-box', minWidth: 0 }}
+        >
             {/* Badge */}
             {pkg.bestValue && (
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-turquoise to-blue-500 text-white text-xs font-bold px-6 py-2 rounded-full whitespace-nowrap z-10 shadow-lg">
+                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-turquoise to-blue-500 text-white text-xs font-bold px-4 py-1.5 rounded-full whitespace-nowrap z-10 shadow-lg">
                     <Zap className="w-3 h-3 inline mr-1" />
                     BEST VALUE
                 </div>
             )}
             {pkg.popular && (
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-orange-400 to-red-500 text-white text-xs font-bold px-6 py-2 rounded-full whitespace-nowrap z-10 shadow-lg">
+                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-orange-400 to-red-500 text-white text-xs font-bold px-4 py-1.5 rounded-full whitespace-nowrap z-10 shadow-lg">
                     <Heart className="w-3 h-3 inline mr-1" />
                     POPULAR
                 </div>
             )}
 
-            <CardHeader className="pb-6 bg-gradient-to-br from-gray-50 to-white">
+            <CardHeader className="pb-4 bg-gradient-to-br from-gray-50 to-white">
                 <div className="flex justify-between items-start">
                     <div className="flex-1">
-                        <span className={`inline-block text-xs font-bold px-3 py-1 rounded-full mb-3 ${getLevelColor(pkg.level)}`}>
+                        <span className={`inline-block text-xs font-bold px-2 py-0.5 rounded-full mb-2 ${getLevelColor(pkg.level)}`}>
                             {pkg.level}
                         </span>
-                        <h3 className="text-2xl font-bold text-navy mb-2 group-hover:text-turquoise transition-colors">
+                        <h3 className="text-xl font-bold text-navy mb-1.5 group-hover:text-turquoise transition-colors">
                             {pkg.title}
                         </h3>
                         {pkg.certification && (
-                            <div className="flex items-center gap-2 text-sm text-gray-600">
-                                <Award className="w-4 h-4 text-turquoise" />
+                            <div className="flex items-center gap-1.5 text-xs text-gray-600">
+                                <Award className="w-3.5 h-3.5 text-turquoise" />
                                 <span>{pkg.certification}</span>
                             </div>
                         )}
@@ -88,23 +91,23 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
                     )}
                 </div>
 
-                <div className="mt-6 flex items-baseline gap-2">
-                    <span className="text-4xl font-bold text-navy">{pkg.price}</span>
-                    <span className="text-lg text-gray-500">/{pkg.duration}</span>
+                <div className="mt-4 flex items-baseline gap-1.5">
+                    <span className="text-3xl font-bold text-navy">{pkg.price}</span>
+                    <span className="text-base text-gray-500">/{pkg.duration}</span>
                 </div>
             </CardHeader>
 
-            <CardContent className="flex-1 pb-6">
-                <div className="flex items-center gap-6 text-sm text-gray-600 mb-6 p-4 bg-gray-50 rounded-lg">
-                    <div className="flex items-center gap-2">
-                        <div className="w-8 h-8 bg-turquoise/10 rounded-full flex items-center justify-center">
-                            <Users className="w-4 h-4 text-turquoise" />
+            <CardContent className="flex-1 pb-4">
+                <div className="flex items-center gap-4 text-xs text-gray-600 mb-4 p-3 bg-gray-50 rounded-lg">
+                    <div className="flex items-center gap-1.5">
+                        <div className="w-7 h-7 bg-turquoise/10 rounded-full flex items-center justify-center">
+                            <Users className="w-3.5 h-3.5 text-turquoise" />
                         </div>
                         <span className="font-semibold">{pkg.dives} Dives</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                        <div className="w-8 h-8 bg-turquoise/10 rounded-full flex items-center justify-center">
-                            <Clock className="w-4 h-4 text-turquoise" />
+                    <div className="flex items-center gap-1.5">
+                        <div className="w-7 h-7 bg-turquoise/10 rounded-full flex items-center justify-center">
+                            <Clock className="w-3.5 h-3.5 text-turquoise" />
                         </div>
                         <span className="font-semibold">{pkg.duration}</span>
                     </div>
@@ -112,29 +115,29 @@ export default function DivePackageCard({ package: pkg, ctaLabel, lang }: DivePa
 
                 {/* Equipment included indicator */}
                 {pkg.equipmentIncluded && (
-                    <div className="flex items-center gap-2 text-sm text-green-600 mb-4 bg-green-50 px-3 py-2 rounded-lg">
-                        <CheckCircle className="w-4 h-4" />
+                    <div className="flex items-center gap-1.5 text-xs text-green-600 mb-3 bg-green-50 px-2.5 py-1.5 rounded-lg">
+                        <CheckCircle className="w-3.5 h-3.5" />
                         <span className="font-medium">Equipment Included</span>
                     </div>
                 )}
 
-                <div className="space-y-3">
+                <div className="space-y-2">
                     {pkg.features.map((feature, index) => (
-                        <div key={index} className="flex items-start gap-3 group">
-                            <div className="w-5 h-5 rounded-full bg-turquoise/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-turquoise/20 transition-colors">
-                                <CheckCircle className="w-3 h-3 text-turquoise" />
+                        <div key={index} className="flex items-start gap-2 group">
+                            <div className="w-4 h-4 rounded-full bg-turquoise/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-turquoise/20 transition-colors">
+                                <CheckCircle className="w-2.5 h-2.5 text-turquoise" />
                             </div>
-                            <span className="text-gray-700 leading-relaxed">{feature}</span>
+                            <span className="text-sm text-gray-700 leading-relaxed">{feature}</span>
                         </div>
                     ))}
                 </div>
             </CardContent>
 
-            <CardFooter className="p-0 px-6 pb-6 bg-gradient-to-t from-gray-50 to-white">
+            <CardFooter className="p-0 px-4 pb-4 bg-gradient-to-t from-gray-50 to-white">
                 <Link href={`/${lang || 'en'}/contact?package=${encodeURIComponent(pkg.title)}`} prefetch={true} className="w-full">
-                    <Button variant="secondary" className="w-full rounded-full py-3 text-base font-semibold group/btn hover:shadow-lg transition-all">
+                    <Button variant="secondary" className="w-full rounded-full py-2.5 text-sm font-semibold group/btn hover:shadow-lg transition-all">
                         <span>{ctaLabel}</span>
-                        <div className="w-5 h-5 ml-2 rounded-full bg-turquoise text-white flex items-center justify-center group-hover/btn:scale-110 transition-transform">
+                        <div className="w-4 h-4 ml-2 rounded-full bg-turquoise text-white flex items-center justify-center group-hover/btn:scale-110 transition-transform">
                             <span className="text-xs">→</span>
                         </div>
                     </Button>

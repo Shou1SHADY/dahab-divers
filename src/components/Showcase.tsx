@@ -192,7 +192,7 @@ export default function Showcase({ title, subtitle, items }: ShowcaseProps) {
 
         {/* Enhanced Thumbnail Gallery */}
         <div className="mt-6">
-          <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-turquoise scrollbar-track-gray-200">
+          <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-turquoise scrollbar-track-transparent">
             {items.map((item, index) => {
               const ThumbnailIcon = getIconComponent(item.icon);
               

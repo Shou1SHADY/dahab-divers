@@ -328,13 +328,22 @@ export default function Navbar({ lang, dict }: NavbarProps) {
                         ? "bg-navy/95 backdrop-blur-md shadow-lg py-2 sm:py-3" 
                         : "bg-transparent py-4 sm:py-6"
                 )}
+                style={{ 
+                    boxSizing: 'border-box',
+                    WebkitBoxSizing: 'border-box',
+                    MozBoxSizing: 'border-box'
+                }}
             >
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8" style={{ width: '100%', maxWidth: '100%', boxSizing: 'border-box' }}>
+                    <div className="flex items-center justify-between" style={{ width: '100%', minWidth: 0 }}>
                         {/* Logo */}
                         <Link 
                             href={`/${lang}`} 
                             className="text-xl sm:text-2xl lg:text-3xl font-bold text-white tracking-wider hover:scale-105 transition-transform duration-200"
+                            style={{ 
+                                fontSize: 'clamp(1.25rem, 2.5vw, 1.875rem)',
+                                lineHeight: '1.2'
+                            }}
                             prefetch={true}
                             aria-label="Dahab Divers Home"
                         >

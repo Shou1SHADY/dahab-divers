@@ -9,7 +9,10 @@
 }
 
 html {
-  scrollbar-gutter: stable;
+  scrollbar-gutter: stable; /* Reserve space for scrollbar to prevent content shift */
+  /* scrollbar-width: thin; Firefox - thin removes arrow buttons */
+  /* Firefox: thumb, track */
+  /* scrollbar-color: #00A8C6 transparent !important; */
   overflow-x: hidden;
   overflow-y: scroll;
   /* Force scrollbar to always show and reserve space */
@@ -34,61 +37,6 @@ html {
   }
 }
 
-/* Ensure consistent scrollbar behavior across all browsers */
-html {
-  scrollbar-width: standard; /* Firefox */
-  scrollbar-color: #c1c1c1 #f1f1f1; /* Firefox fallback */
-}
-
-/* Style Chrome's scrollbar to match Edge's width and appearance */
-::-webkit-scrollbar {
-  width: 16px;
-  /* Match Edge's actual scrollbar width */
-  height: 16px;
-  background: transparent;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-left: 1px solid #e0e0e0;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border: 3px solid #f1f1f1;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: #787878;
-}
-
-::-webkit-scrollbar-corner {
-  background: #f1f1f1;
-}
-
-/* Ensure scrollbar doesn't overlay content */
-@media (min-width: 1024px) {
-  html {
-    scrollbar-gutter: stable;
-  }
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    border: 2px solid #f1f1f1;
-  }
-}
 
 :root {
   --background: #ffffff;
@@ -181,4 +129,126 @@ body {
   padding: 0;
   line-height: 1.6;
   -webkit-overflow-scrolling: touch;
+  /* Scrollbar styling - ensure it applies to body */
+  /* scrollbar-width: thin;
+  scrollbar-color: #00A8C6 transparent; */
+}
+
+/* Cross-browser grid and flexbox normalization */
+.grid {
+  display: grid;
+  /* Force consistent grid calculation across browsers */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Ensure consistent card sizing across browsers */
+[class*="grid"] > * {
+  /* Prevent Chrome from expanding grid items beyond their column width */
+  min-width: 0;
+  max-width: 100%;
+  /* Force consistent box model */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Normalize navbar sizing across browsers */
+nav {
+  /* Force consistent font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Ensure consistent box model */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Normalize container class across browsers */
+.container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* Chrome-specific fixes to match Edge rendering */
+@supports (-webkit-appearance: none) {
+  /* Force consistent grid column width calculation in Chrome */
+  .grid {
+    width: 100%;
+  }
+  
+  /* Prevent Chrome from expanding flex items */
+  .flex {
+    min-width: 0;
+  }
+  
+  /* Normalize card heights in Chrome */
+  [class*="Card"] {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Ensure consistent container sizing in Chrome */
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ────────────────────────────────────────────────────────────── */
+/*   SCROLLBAR — Custom styling to hide arrows and make track transparent */
+/*   Works with tailwind-scrollbar plugin classes                  */
+/* ────────────────────────────────────────────────────────────── */
+
+/* Hide arrow buttons completely (tailwind-scrollbar doesn't handle this) */
+*::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+*::-webkit-scrollbar-button:single-button,
+*::-webkit-scrollbar-button:start:decrement,
+*::-webkit-scrollbar-button:end:increment,
+*::-webkit-scrollbar-button:vertical:start:decrement,
+*::-webkit-scrollbar-button:vertical:end:increment,
+*::-webkit-scrollbar-button:horizontal:start:decrement,
+*::-webkit-scrollbar-button:horizontal:end:increment {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Ensure track is transparent (override tailwind-scrollbar default) */
+.scrollbar-track-transparent::-webkit-scrollbar-track,
+.scrollbar-track-transparent *::-webkit-scrollbar-track {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Remove corner */
+*::-webkit-scrollbar-corner {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* MOBILE — hide scrollbar completely */
+@media (max-width: 768px) {
+  *::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    display: none !important;
+  }
+
+  html {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    scrollbar-gutter: auto !important;
+  }
 }

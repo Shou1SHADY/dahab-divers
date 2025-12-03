@@ -178,7 +178,7 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
             </section>
 
             {/* Filter and Search System */}
-            <section className="py-8 bg-gray-50">
+            <section className="py-4 bg-gray-50">
                 <div className="container mx-auto px-4">
                     <FilterSortSystem
                         searchTerm={searchTerm}
@@ -195,7 +195,7 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
             {/* Content Sections */}
             {activeTab === 'packages' ? (
                 <Suspense fallback={<LoadingSkeleton />}>
-                    <section className="py-20 bg-white relative">
+                    <section className="pt-8 pb-20 bg-white relative">
                         <div className="absolute inset-0 bg-gradient-to-br from-turquoise/5 to-blue-500/5"></div>
                         <div className="container mx-auto px-4 relative">
                             <div className="text-center mb-16">
@@ -210,9 +210,9 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
                             </div>
 
                             {filteredPackages.length > 0 ? (
-                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" style={{ width: '100%' }}>
                                     {filteredPackages.map((pkg) => (
-                                        <div key={pkg.id} className="transform hover:scale-105 transition-all duration-300">
+                                        <div key={pkg.id} className="w-full min-w-0 max-w-full" style={{ boxSizing: 'border-box' }}>
                                             <DivePackageCard
                                                 package={pkg}
                                                 ctaLabel={dict.diving.packages.cta}
@@ -253,7 +253,7 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
                 </Suspense>
             ) : (
                 <Suspense fallback={<LoadingSkeleton />}>
-                    <section className="py-20 bg-gray-50">
+                    <section className="pt-8 pb-20 bg-gray-50">
                         <div className="container mx-auto px-4">
                             <div className="text-center mb-16">
                                 <div className="inline-flex items-center gap-2 bg-navy/10 text-navy px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -267,9 +267,9 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
                             </div>
 
                             {filteredSites.length > 0 ? (
-                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" style={{ width: '100%' }}>
                                     {filteredSites.map((site) => (
-                                        <div key={site.id} className="transform hover:scale-105 transition-all duration-300">
+                                        <div key={site.id} className="w-full min-w-0 max-w-full" style={{ boxSizing: 'border-box' }}>
                                             <DiveSiteCard
                                                 site={site}
                                                 lang={lang}

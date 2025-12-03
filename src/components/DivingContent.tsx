@@ -49,7 +49,7 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
     const filteredPackages = useMemo(() => {
         let filtered = packagesData.filter(pkg => {
             const matchesSearch = pkg.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                               pkg.features.some(f => f.toLowerCase().includes(searchTerm.toLowerCase()));
+                pkg.features.some(f => f.toLowerCase().includes(searchTerm.toLowerCase()));
             const matchesLevel = filters.level.length === 0 || filters.level.includes(pkg.level);
             const matchesRating = filters.rating === 0 || (pkg.rating || 0) >= filters.rating;
 
@@ -79,9 +79,9 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
     const filteredSites = useMemo(() => {
         let filtered = sitesData.filter(site => {
             const matchesSearch = site.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                               site.description.toLowerCase().includes(searchTerm.toLowerCase());
+                site.description.toLowerCase().includes(searchTerm.toLowerCase());
             const matchesLevel = filters.level.length === 0 || filters.level.includes(site.level);
-            const matchesDepth = filters.depthRange === 'all' || 
+            const matchesDepth = filters.depthRange === 'all' ||
                 (() => {
                     const depth = parseDepth(site.depth);
                     switch (filters.depthRange) {
@@ -122,7 +122,7 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
     return (
         <>
             {/* Hero Stats Section */}
-            <section className="py-12 bg-gradient-to-r from-navy to-navy-light text-white">
+            <section className="py-12 bg-gradient-to-r from-navy to-navy-light text-white mt-8">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                         <div className="p-4">
@@ -152,22 +152,20 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
                         <div className="inline-flex bg-gray-100 rounded-lg p-1">
                             <button
                                 onClick={() => setActiveTab('packages')}
-                                className={`flex items-center gap-2 px-6 py-3 rounded-md font-medium transition-colors ${
-                                    activeTab === 'packages'
+                                className={`flex items-center gap-2 px-6 py-3 rounded-md font-medium transition-colors ${activeTab === 'packages'
                                         ? 'bg-white text-navy shadow-sm'
                                         : 'text-gray-600 hover:text-gray-900'
-                                }`}
+                                    }`}
                             >
                                 <Package className="w-4 h-4" />
                                 Dive Packages
                             </button>
                             <button
                                 onClick={() => setActiveTab('sites')}
-                                className={`flex items-center gap-2 px-6 py-3 rounded-md font-medium transition-colors ${
-                                    activeTab === 'sites'
+                                className={`flex items-center gap-2 px-6 py-3 rounded-md font-medium transition-colors ${activeTab === 'sites'
                                         ? 'bg-white text-navy shadow-sm'
                                         : 'text-gray-600 hover:text-gray-900'
-                                }`}
+                                    }`}
                             >
                                 <MapPinIcon className="w-4 h-4" />
                                 Dive Sites
@@ -370,14 +368,14 @@ export default function DivingContent({ lang, dict }: { lang: string; dict: any 
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready for Your Underwater Adventure?</h2>
                     <p className="text-xl mb-8 max-w-2xl mx-auto">Join us for an unforgettable diving experience in the crystal-clear waters of the Red Sea.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a 
+                        <a
                             href={`/${lang}/contact`}
                             className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors"
                         >
                             <Users className="w-5 h-5" />
                             Book Your Dive Now
                         </a>
-                        <a 
+                        <a
                             href={`/${lang}/courses`}
                             className="inline-flex items-center gap-2 bg-navy text-white px-8 py-4 rounded-full font-semibold hover:bg-navy-light transition-colors"
                         >

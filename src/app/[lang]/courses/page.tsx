@@ -18,10 +18,12 @@ export default async function CoursesPage({
             <PageHeader
                 title={dict.nav.courses}
                 breadcrumbs={[{ label: dict.nav.courses }]}
+                backgroundImage="/images/courses-header-bg.png"
+                roundedBottom={true}
             />
 
             {/* Course Information */}
-            <section className="py-16 bg-white">
+            <section className="py-16 bg-white mt-8">
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl mx-auto text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-navy mb-6">{dict.courses.info.title}</h2>
@@ -75,13 +77,13 @@ export default async function CoursesPage({
                     <div className="relative">
                         {/* Progression line */}
                         <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-turquoise/30 hidden md:block"></div>
-                        
+
                         <div className="space-y-12">
                             {coursesData.filter(c => c.level !== "Specialized" && c.level !== "Technical").map((course, index) => (
                                 <div key={course.id} className={`relative flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
                                     {/* Connector dot */}
                                     <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-turquoise border-4 border-navy z-10 hidden md:block"></div>
-                                    
+
                                     {/* Content */}
                                     <div className={`md:w-5/12 mb-6 md:mb-0 ${index % 2 === 0 ? 'md:pr-12 text-right' : 'md:pl-12 text-left'}`}>
                                         <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
@@ -103,7 +105,7 @@ export default async function CoursesPage({
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     {/* Spacer for line */}
                                     <div className="md:w-2/12 hidden md:block"></div>
                                 </div>

@@ -18,6 +18,8 @@ export default async function ContactPage({
             <PageHeader
                 title={dict.nav.contact}
                 breadcrumbs={[{ label: dict.nav.contact }]}
+                backgroundImage="/images/contact-header-bg.png"
+                roundedBottom={true}
             />
 
             <section className="py-24">

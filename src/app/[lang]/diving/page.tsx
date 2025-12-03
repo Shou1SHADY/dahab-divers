@@ -16,6 +16,8 @@ export default async function DivingPage({
             <PageHeader
                 title={dict.nav.diving}
                 breadcrumbs={[{ label: dict.nav.diving }]}
+                backgroundImage="/images/diving-header-bg.png"
+                roundedBottom={true}
             />
             <DivingContent lang={lang} dict={dict} />
         </main>

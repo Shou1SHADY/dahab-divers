@@ -19,6 +19,8 @@ export default async function AboutPage({
             <PageHeader
                 title={dict.nav.about}
                 breadcrumbs={[{ label: dict.nav.about }]}
+                backgroundImage="/images/about-header-bg.png"
+                roundedBottom={true}
             />
 
             {/* History & Story */}
